@@ -1,0 +1,91 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "0ae71583-d61f-4227-a6ae-3d10ab4aa38f": {
+        "id": "0ae71583-d61f-4227-a6ae-3d10ab4aa38f",
+        "parent": null,
+        "name": "webhook-testing.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "webhook-testing.js",
+        "cursor": {
+          "lineNumber": 3,
+          "column": 2
+        },
+        "config": {
+          "runtime": "nodejs8",
+          "timeout": 60,
+          "memory": 128,
+          "triggerType": 0,
+          "name": "webhookTesting",
+          "handler": "handler"
+        },
+        "triggers": [
+          {
+            "resourceName": "http-trigger",
+            "config": {}
+          }
+        ]
+      },
+      "5e194061-aa7b-4267-b505-34bf25b929ee": {
+        "id": "5e194061-aa7b-4267-b505-34bf25b929ee",
+        "parent": null,
+        "name": "index.js",
+        "type": "JS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": false,
+        "filePath": "index.js"
+      },
+      "5e4fcceb-f4c8-49e4-8f52-145a376e3990": {
+        "id": "5e4fcceb-f4c8-49e4-8f52-145a376e3990",
+        "parent": null,
+        "name": "main.py",
+        "type": "PYTHON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": false,
+        "filePath": "main.py"
+      }
+    },
+    "openFiles": [
+      "0ae71583-d61f-4227-a6ae-3d10ab4aa38f"
+    ],
+    "currentFileId": "0ae71583-d61f-4227-a6ae-3d10ab4aa38f",
+    "resources": {
+      "http-trigger": {
+        "name": "http-trigger",
+        "type": "http-trigger",
+        "config": {}
+      }
+    },
+    "customTemplate": {
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "webhook-testing",
+    "projectDescription": "Test webhook",
+    "projectVersion": "1.0.0",
+    "projectRegion": "asia-east2",
+    "platform": "GCP",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1589462230492
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "webhook-testing",
+      "url": "https://github.com/tranbao13/webhook-testing"
+    }
+  }
+}
